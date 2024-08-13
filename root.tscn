@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://bfob68sctb0mj"]
+
+[ext_resource type="Script" path="res://Root.gd" id="1_fyjco"]
+
+[node name="Root" type="Node2D"]
+script = ExtResource("1_fyjco")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+unique_name_in_owner = true
+offset_right = 1152.0
+offset_bottom = 647.0
